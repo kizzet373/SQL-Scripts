@@ -1,6 +1,6 @@
-Use [Production10.2]
+Use [Production]
 
-Declare @ColumnName nvarchar(30) = '%PricePerCode%', @TableName nvarchar(30) = '%InvcDtl%', @SchemaName nvarchar(30) = '%erp%'
+Declare @ColumnName nvarchar(30) = '%%', @TableName nvarchar(30) = '%%', @SchemaName nvarchar(30) = '%erp%'
 
 SELECT      
 			s.name AS 'Schema Name'		
