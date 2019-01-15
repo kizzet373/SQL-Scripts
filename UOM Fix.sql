@@ -1,20 +1,14 @@
 select 
        
-       [RcvDtl].[WeightUOM] as [RcvDtl_WeightUOM],
-       [RcvDtl].[GrossWeightUOM] as [RcvDtl_GrossWeightUOM]
-       
-from Erp.RcvDtl as RcvDtl
-where (RcvDtl.PackSlip like '%%')
+from 
+where 
 
-update ERP.rcvdtl
-SET WeightUOM = 'LB', GrossWeightUOM = 'LB'
-WHERE (RcvDtl.PackSlip like '%%')
+update
+SET
+WHERE
 
 
 select 
        
-       [RcvDtl].[WeightUOM] as [RcvDtl_WeightUOM],
-       [RcvDtl].[GrossWeightUOM] as [RcvDtl_GrossWeightUOM]
-       
-from Erp.RcvDtl as RcvDtl
-where (RcvDtl.PackSlip like '%%')
+from  as 
+where
