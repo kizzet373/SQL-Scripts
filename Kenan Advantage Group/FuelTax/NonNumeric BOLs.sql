@@ -1,0 +1,1 @@
+Select * from ShipmentData where state='KY' AND Company='KLEQ' AND Period='20190701' AND ISNUMERIC(BillOfLading) = 0
